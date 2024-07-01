@@ -1,6 +1,31 @@
 .mainContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 200px auto;
+    column-count: 5;
+    column-gap: 2em;
+    padding: 100px;
+}
+
+@media ( max-width: 2124px ) {
+    .mainContainer {
+        column-count: 4;
+    }
+}
+
+@media ( max-width: 1800px ) {
+    .mainContainer {
+        column-count: 3;
+    }
+}
+
+
+@media ( max-width: 1600px ) {
+    .mainContainer {
+        column-count: 2;
+    }
+}
+    
+@media ( max-width: 1024px ) {
+    .mainContainer {
+        column-count: 1;
+        padding: 50px;
+    }
 }

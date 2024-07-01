@@ -1,19 +1,35 @@
 .btn {
-    margin: 15px;
+    margin-bottom: 2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: white;
-    width: 375px;
-    border: 3px solid lightgray;
+    border: 3px solid lightgrey;
     cursor: pointer;
 }
 
 .entryHeading {
-    padding: 10px;
-    font-size: 50px;
+    padding: 10px 20px;
+    font-size: 40px;
 }
 
 .entryText {
-    padding: 10px;
-    font-size: 26px;
+    padding: 0 20px;
+    font-size: 28px;
+}
+
+.btnHeading {
+    font-size: 30px;
+    padding: 6px;
+}
+
+.btnImage {
+    margin-bottom: 2em;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.image {
+    max-width: 100%;
+    border-radius: 20px;
 }
