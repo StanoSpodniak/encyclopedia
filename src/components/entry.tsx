@@ -1,15 +1,16 @@
 import style from './entry.module.css';
-import Augustus from '../assets/Augustus.jpg';
 
 interface Props {
     heading: string,
-    text: string
+    text: string,
+    category: string;
+    type: string
 }
 
-const entry = ({heading, text}: Props) => {
-  if (heading === "Octavianus Augustus") return (
+const entry = ({heading, text, category, type}: Props) => {
+  if (type === "image") return (
     <button className={style.btnImage}>
-      <img className={style.image} src={Augustus} alt="Augustus" />
+      <img className={style.image} src={text} alt={heading} />
       <h1 className={style.btnHeading}>{heading}</h1>
     </button>
   )
@@ -17,7 +18,8 @@ const entry = ({heading, text}: Props) => {
   return (
     <button className={style.btn}>
         <h1 className={style.entryHeading}>{heading}</h1>
-        <p className={style.entryText} >{text}</p>
+        <p className={style.entryText}>{text}</p>
+        <p className={style.category}>{category}</p>
     </button>
   )
 }
