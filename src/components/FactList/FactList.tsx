@@ -35,7 +35,6 @@ const FactList = ({ query }: Props) => {
   useEffect(() => {
     if (query.length >= 3) {
       setSearchWord(query);
-      setFactsToDisplay([]);
       selectSearchedFacts(searchWord);
     }
   }, [query])
@@ -55,7 +54,6 @@ const FactList = ({ query }: Props) => {
       fact.category.toLowerCase().includes(searchWord.toLowerCase())
     );
     setFactsToDisplay(searchedFacts);
-    console.log(factsToDisplay);
   }
 
   return (

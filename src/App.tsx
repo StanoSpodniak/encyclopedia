@@ -22,12 +22,13 @@ function App() {
   //REST API: https://www.youtube.com/watch?v=pKd0Rpw7O48
   //search bar tutorials: https://www.youtube.com/watch?v=E1cklb4aeXA, https://www.youtube.com/watch?v=xAqCEBFGdYk
   //použiť text to speech
+  //budú tam fakty typu: najdlhšia rieka na svete, rok objavenia ameriky, Krymská vojna atď. (roky, bojujúce strany) atď.
 
   const [query, setQuery] = useState<string>('');
 
   return (
     <div>
-        <SearchBar query={query} setQuery={setQuery} />
+        <SearchBar setQuery={setQuery} />
         <FactList query={query} />
     </div>
   )

@@ -35,5 +35,7 @@
     {"id": 34, "name": "Arsenic", "description": "As", "category": "chemical elements", "type": "text"},
     {"id": 35, "name": "Selenium", "description": "Se", "category": "chemical elements", "type": "text"},
     {"id": 36, "name": "Bromine", "description": "Br", "category": "chemical elements", "type": "text"},
-    {"id": 37, "name": "Krypton", "description": "Kr", "category": "chemical elements", "type": "text"}
+    {"id": 37, "name": "Krypton", "description": "Kr", "category": "chemical elements", "type": "text"},
+    {"id": 38, "name": "The longest river in the world", "description": "The longest river in the world is the Nile River, located in northeastern Africa. It stretches approximately 6,650 kilometers (4,130 miles) long. The Nile River flows through eleven countries, including Egypt, Sudan, Uganda, and Ethiopia, before emptying into the Mediterranean Sea.", "category": "geography", "type": "text"},
+    {"id": 39, "name": "The biggest animal on earth", "description": "The biggest animal on Earth is the blue whale (Balaenoptera musculus). Blue whales are enormous marine mammals and are also the largest animals ever known to have existed on Earth. They can reach lengths of up to 100 feet (30 meters) and weigh as much as 200 tons (approximately 181 metric tonnes). These magnificent creatures primarily feed on krill and are found in oceans worldwide, although their populations have been significantly reduced due to historical whaling activities.", "category": "nature", "type": "text"}
 ]

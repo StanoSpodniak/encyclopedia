@@ -1,5 +1,5 @@
 .btn {
-    min-width: 440px;
+    width: 400px;
     margin-bottom: 2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 20px;
@@ -12,12 +12,12 @@
 
 .entryHeading {
     padding: 10px 20px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .entryText {
     padding: 0 20px 10px 20px;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .category {
@@ -38,7 +38,7 @@
 }
 
 .image {
-    max-width: 100%;
+    width: 400px;
     border-radius: 20px;
     cursor: pointer;
 }

@@ -1,24 +1,28 @@
+import { useState } from 'react';
 import style from './search-bar.module.css';
+import { IoSearchSharp } from "react-icons/io5";
 
 interface Props {
-  query: string;
   setQuery: (query: string) => void;
 }
 
 //treba nejako potvrdit hladane slovo - po stlaceni enter alebo kliknuti na ikonu lupy
 
-const filter = ({ query, setQuery }: Props) => {
+const SearchBar = ({ setQuery }: Props) => {
+  const [searchWord, setSearchWord] = useState("");
+
   return (
     <div className={style.searchBarContainer}>
+      <button onClick={() => setQuery(searchWord)}><IoSearchSharp color="gray" size={40} /></button>
       <input
-            className={style.searchBar}
-            type="text"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search..."
-        />
+        className={style.searchBar}
+        type="text"
+        value={searchWord}
+        onChange={(e) => setSearchWord(e.target.value)}
+        placeholder="Search..."
+      />
     </div>
   )
 }
 
-export default filter
+export default SearchBar;
