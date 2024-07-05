@@ -5,7 +5,9 @@
     border-radius: 20px;
     background-color: white;
     border: 3px solid lightgrey;
+    text-align: center;
     cursor: pointer;
+    user-select: text;
 }
 
 .entryHeading {
@@ -20,9 +22,8 @@
 
 .category {
     padding-bottom: 6px;
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
-    color: gray;
 }
 
 .btnHeading {

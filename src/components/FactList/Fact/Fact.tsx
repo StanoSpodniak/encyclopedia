@@ -1,4 +1,4 @@
-import style from './entry.module.css';
+import style from './fact.module.css';
 
 interface Props {
     heading: string,

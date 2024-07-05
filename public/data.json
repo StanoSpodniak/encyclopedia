@@ -22,7 +22,18 @@
     {"id": 21, "name": "Nature", "description": "Nature refers to the physical world and everything in it that is not created by humans. This includes the Earth, its ecosystems, and the living organisms that inhabit it, as well as the physical forces and phenomena that shape the environment.", "category": "nature", "type": "text"},
     {"id": 22, "name": "Society", "description": "Society is a complex and organized group of individuals who live together in a community and share common values, institutions, and culture. It encompasses the social structures, relationships, and institutions that define how people interact with each other and function collectively.", "category": "society", "type": "text"},
     {"id": 23, "name": "Roman Empire", "description": "The Roman Empire was a vast civilization that originated from the city-state of Rome in Italy. Starting as a republic in 509 BCE, it expanded through conquest and diplomacy, eventually encompassing territories around the Mediterranean Sea and beyond, including parts of Europe, North Africa, and the Middle East.", "category": "ancient Rome", "type": "text"},
-    {"id": 24, "name": "Octavianus Augustus", "description": "/images/people/augustus.jpg", "category": "ancient Rome", "type": "image"},
+    {"id": 24, "name": "Octavius Augustus", "description": "/images/people/augustus.jpg", "category": "ancient Rome", "type": "image"},
     {"id": 25, "name": "Albert Einstein", "description": "/images/people/einstein.jpg", "category": "scientists", "type": "image"},
-    {"id": 25, "name": "Franz Kafka", "description": "/images/people/kafka.jpg", "category": "authors", "type": "image"}
+    {"id": 26, "name": "Franz Kafka", "description": "/images/people/kafka.jpg", "category": "authors", "type": "image"},
+    {"id": 27, "name": "Iron", "description": "Fe", "category": "chemical elements", "type": "text"},
+    {"id": 28, "name": "Cobalt", "description": "Co", "category": "chemical elements", "type": "text"},
+    {"id": 29, "name": "Nickel", "description": "Ni", "category": "chemical elements", "type": "text"},
+    {"id": 30, "name": "Copper", "description": "Cu", "category": "chemical elements", "type": "text"},
+    {"id": 31, "name": "Zinc", "description": "Zn", "category": "chemical elements", "type": "text"},
+    {"id": 32, "name": "Gallium", "description": "Ga", "category": "chemical elements", "type": "text"},
+    {"id": 33, "name": "Germanium", "description": "Ge", "category": "chemical elements", "type": "text"},
+    {"id": 34, "name": "Arsenic", "description": "As", "category": "chemical elements", "type": "text"},
+    {"id": 35, "name": "Selenium", "description": "Se", "category": "chemical elements", "type": "text"},
+    {"id": 36, "name": "Bromine", "description": "Br", "category": "chemical elements", "type": "text"},
+    {"id": 37, "name": "Krypton", "description": "Kr", "category": "chemical elements", "type": "text"}
 ]
